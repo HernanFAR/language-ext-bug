@@ -1,16 +1,37 @@
 using LanguageExt.Common;
+using System.Diagnostics.Contracts;
 
 namespace LanguageExtensionV5Bug;
 
 public class V5Test
 {
-    public sealed record NotFound(string Message) : Expected(Message, 404);
+    public sealed record NotFoundWithoutFailure(string Message)
+        : Expected(Message, 404)
+    {
+        [Pure]
+        public override string ToString() => $"{Message}";
+    }
+
+    public sealed record NotFoundWithFailure(string Message)
+        : Expected(Message, 404);
 
     [Fact]
-    public void Test()
+    public void TestWithoutFailure()
     {
         // Arrange
-        Error expected = new NotFound("Name");
+        Error expected = new NotFoundWithoutFailure("Name");
+
+        // Act
+        var act = $"Expected: {expected}";
+
+        Assert.NotNull(act);
+    }
+
+    [Fact]
+    public void TestWithFailure()
+    {
+        // Arrange
+        Error expected = new NotFoundWithFailure("Name");
 
         // Act
         var act = $"Expected: {expected}";

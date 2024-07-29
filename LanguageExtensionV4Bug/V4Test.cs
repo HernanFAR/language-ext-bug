@@ -14,7 +14,7 @@ public class V4Test
         Error expected = new NotFound("Name");
 
         // Act
-        var act = $"Expected: {expected}";
+        var act = expected;
 
         Assert.NotNull(act);
     }
