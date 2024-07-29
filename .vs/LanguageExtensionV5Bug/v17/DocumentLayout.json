@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Hernan\\source\\repos\\LanguageExtensionV5Bug\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AB695A0-29D6-4F1E-A773-8AFD680EACD3}|LanguageExtensionV4Bug\\LanguageExtensionV4Bug.csproj|c:\\users\\hernan\\source\\repos\\languageextensionv5bug\\languageextensionv4bug\\v4test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AB695A0-29D6-4F1E-A773-8AFD680EACD3}|LanguageExtensionV4Bug\\LanguageExtensionV4Bug.csproj|solutionrelative:languageextensionv4bug\\v4test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A0D6374F-4DB5-4676-B7CB-9B6312234B22}|LanguageExtensionV5Bug\\LanguageExtensionV5Bug.csproj|c:\\users\\hernan\\source\\repos\\languageextensionv5bug\\languageextensionv5bug\\v5test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0D6374F-4DB5-4676-B7CB-9B6312234B22}|LanguageExtensionV5Bug\\LanguageExtensionV5Bug.csproj|solutionrelative:languageextensionv5bug\\v5test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AB695A0-29D6-4F1E-A773-8AFD680EACD3}|LanguageExtensionV4Bug\\LanguageExtensionV4Bug.csproj|c:\\users\\hernan\\source\\repos\\languageextensionv5bug\\languageextensionv4bug\\v4test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB695A0-29D6-4F1E-A773-8AFD680EACD3}|LanguageExtensionV4Bug\\LanguageExtensionV4Bug.csproj|solutionrelative:languageextensionv4bug\\v4test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 176,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,26 +58,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "V4Test.cs",
               "DocumentMoniker": "C:\\Users\\Hernan\\source\\repos\\LanguageExtensionV5Bug\\LanguageExtensionV4Bug\\V4Test.cs",
               "RelativeDocumentMoniker": "LanguageExtensionV4Bug\\V4Test.cs",
               "ToolTip": "C:\\Users\\Hernan\\source\\repos\\LanguageExtensionV5Bug\\LanguageExtensionV4Bug\\V4Test.cs",
               "RelativeToolTip": "LanguageExtensionV4Bug\\V4Test.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAzwAoAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T09:08:47.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "V5Test.cs",
               "DocumentMoniker": "C:\\Users\\Hernan\\source\\repos\\LanguageExtensionV5Bug\\LanguageExtensionV5Bug\\V5Test.cs",
               "RelativeDocumentMoniker": "LanguageExtensionV5Bug\\V5Test.cs",
               "ToolTip": "C:\\Users\\Hernan\\source\\repos\\LanguageExtensionV5Bug\\LanguageExtensionV5Bug\\V5Test.cs",
               "RelativeToolTip": "LanguageExtensionV5Bug\\V5Test.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAzwCEAAAABAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T08:45:55.59Z",
               "EditorCaption": ""
